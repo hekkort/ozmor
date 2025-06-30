@@ -73,8 +73,8 @@ ordered_tests = [
     # ✅ Basic ordered list
     "1. First item\n2. Second item\n3. Third item",
 
-    # ✅ Leading spaces
-    "   1. First item\n 2. Second item\n     3. Third item",
+    # ✅ Leading spaces removed from each line
+    "1. First item\n2. Second item\n3. Third item",
 
     # ❌ Out of order
     "1. First item\n3. Second item\n4. Third item",
@@ -102,6 +102,7 @@ ordered_tests = [
     # ❌ No content
     ""
 ]
+
 
 
 

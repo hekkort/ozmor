@@ -6,8 +6,26 @@ from splitblocks import *
 
 class TestSplitBlocks(unittest.TestCase):
 
-    def test_blocks_to_block_type(self):
-        pass
+    def test_blocks_to_block_type_ordered(self):
+        result = []
+        for o in ordered_tests:
+            result.append(block_to_block_type(o))
+        self.assertListEqual(
+            result,
+            [
+                BlockType.ORDERED_LIST,
+                BlockType.ORDERED_LIST,
+                BlockType.PARAGRAPH,
+                BlockType.PARAGRAPH,
+                BlockType.PARAGRAPH,
+                BlockType.PARAGRAPH,
+                BlockType.ORDERED_LIST,
+                BlockType.PARAGRAPH,
+                BlockType.ORDERED_LIST,
+                BlockType.PARAGRAPH
+            ]
+        )
+
 
 
 
