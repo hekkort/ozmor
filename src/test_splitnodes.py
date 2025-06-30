@@ -1,7 +1,7 @@
 import unittest
 
 from textnode import TextNode, TextType
-from splitnodes import split_nodes_delimiter
+from splitnodes import split_nodes_delimiter, extract_markdown_images, extract_markdown_links
 
 class TestSplitNodes(unittest.TestCase):
     def test_code(self):
@@ -42,3 +42,41 @@ class TestSplitNodes(unittest.TestCase):
         nodes = [TextNode("this is some _text without closing the italic", TextType.TEXT)]
         with self.assertRaises(Exception):
             split_nodes_delimiter(nodes, "_", TextType.ITALIC)
+
+    def test_extract_markdown_images(self):
+        matches = extract_markdown_images(
+            "This is text with an ![image](https://i.imgur.com/zjjcJKZ.png)"
+        )
+        self.assertListEqual([("image", "https://i.imgur.com/zjjcJKZ.png")], matches)
+
+    def test_extract_markdown_images_negative(self):
+        matches = extract_markdown_images(
+            "This is text with an [image](https://i.imgur.com/zjjcJKZ.png)"
+        )
+        self.assertListEqual([], matches)
+
+    def test_extract_markdown_links(self):
+        matches = extract_markdown_links(
+            "This is text with an [image](https://i.imgur.com/zjjcJKZ.png)"
+        )
+        self.assertListEqual([("image", "https://i.imgur.com/zjjcJKZ.png")], matches)
+    
+    def test_extract_markdown_links_negative(self):
+        matches = extract_markdown_links(
+            "This is text with an ![image](https://i.imgur.com/zjjcJKZ.png)"
+        )
+        self.assertListEqual([], matches)
+
+    def test_extract_markdown_images_no_link(self):
+        matches = extract_markdown_images(
+            "This is text with an ![image](zjjcJKZ)"
+        )
+        self.assertListEqual([("image", "zjjcJKZ")], matches)
+
+    def test_extract_markdown_links(self):
+        matches = extract_markdown_images(
+            "This is text with an ![image](hallodoei)"
+        )
+        self.assertListEqual([("image", "hallodoei")], matches)
+
+    
