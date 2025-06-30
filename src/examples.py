@@ -1,5 +1,22 @@
 from textnode import TextNode, TextType
 
+
+quote_block = """
+> This is a blockquote.  
+> It can span multiple lines and is often used for citing sources or highlighting ideas.
+"""
+
+md = """
+
+
+# This is a heading
+
+This is a paragraph of text. It has some **bold** and _italic_ words inside of it.
+
+        - This is the first list item in a list block
+- This is a list item
+- This is another list item          """
+
 wrong_examples = [
     "This is **bold text** with an _italic_ word and a `code snippet` and an ![image](https://example.com/img.png) plus a [valid link](https://example.com).",
     
