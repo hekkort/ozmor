@@ -1,7 +1,7 @@
 import re
 
 from enum import Enum
-from examples import *
+import examples
 
 class BlockType(Enum):
     PARAGRAPH = "paragraph"
@@ -26,19 +26,40 @@ def markdown_to_blocks(md):
     return final
 
 def block_to_block_type(block):
-    block = markdown_to_blocks(block)
-    for b in block:
-        lines = b.split("\n")
-        if all(line.startswith(">") for line in lines):
-            return BlockType.QUOTE
-        if all(line.startswith("- ") for line in lines):
-            return BlockType.UNORDERED_LIST
-        if all(line.startswith(f"{lines.index(line) + 1}. ") for line in lines):
-            return BlockType.ORDERED_LIST
-        if lines[0].startswith("```") and lines[len(lines) - 1].endswith("```"):
-            return BlockType.CODE
-        if re.match(r"^#{1,6} [^\n]+$", lines[0]):
-            return BlockType.HEADING
+    lines = block.split("\n")
+    if all(line.startswith(">") for line in lines):
+        return BlockType.QUOTE
+        
+    if all(line.startswith("- ") for line in lines):
+        return BlockType.UNORDERED_LIST
+    if all(line.startswith(f"{i + 1}. ") for i, line in enumerate(lines)):
+        return BlockType.ORDERED_LIST
+    if lines[0].startswith("```") and lines[len(lines) - 1].endswith("```"):
+        return BlockType.CODE
+    if re.match(r"^#{1,6} [^\n]+$", lines[0]):
+        return BlockType.HEADING
     return BlockType.PARAGRAPH
 
-print(block_to_block_type(quote_block))
+
+
+    # def block_to_block_type(block):
+    #     block = markdown_to_blocks(block)
+    #     for b in block:
+    #         lines = b.split("\n")
+    #         if all(line.startswith(">") for line in lines):
+    #             return BlockType.QUOTE
+    #         if all(line.startswith("- ") for line in lines):
+    #             return BlockType.UNORDERED_LIST
+    #         if all(line.startswith(f"{lines.index(line) + 1}. ") for line in lines):
+    #             return BlockType.ORDERED_LIST
+    #         if lines[0].startswith("```") and lines[len(lines) - 1].endswith("```"):
+    #             return BlockType.CODE
+    #         if re.match(r"^#{1,6} [^\n]+$", lines[0]):
+    #             return BlockType.HEADING
+    #     return BlockType.PARAGRAPH
+
+for c in examples.code_tests:
+    print(block_to_block_type(c))
+
+for o in examples.ordered_tests:
+    print(block_to_block_type(o))

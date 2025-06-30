@@ -1,10 +1,113 @@
 from textnode import TextNode, TextType
 
 
-quote_block = """
-> This is a blockquote.  
-> It can span multiple lines and is often used for citing sources or highlighting ideas.
-"""
+code_tests = [
+    # ✅ Basic correct case
+    """```
+1 First line
+2 Second line
+3 Third line
+```""",
+
+    # ✅ Case with leading spaces
+    """```
+   1 First line
+ 2 Second line
+     3 Third line
+```""",
+
+    # ❌ Incorrect sequence
+    """```
+1 First line
+3 Second line
+4 Third line
+```""",
+
+    # ❌ Starts with 0
+    """```
+0 Start
+1 Continue
+2 Continue
+```""",
+
+    # ❌ One line missing a number
+    """```
+1 Good
+2 Also good
+Oops this line has no number
+4 Skipped one
+```""",
+
+    # ❌ Non-numeric prefix
+    """```
+1 First line
+two Second line
+3 Third line
+```""",
+
+    # ✅ Long lines and text after number
+    """```
+1 This is a very long line that continues with a lot of information
+2 Here is another long paragraph of text following the number
+3 And it ends here
+```""",
+
+    # ❌ Empty line in between
+    """```
+1 First line
+
+3 Third line
+```""",
+
+    # ✅ One line only
+    """```
+1 Single line only
+```""",
+
+    # ❌ No lines
+    """```
+```"""
+]
+
+ordered_tests = [
+    # ✅ Basic ordered list
+    "1. First item\n2. Second item\n3. Third item",
+
+    # ✅ Leading spaces
+    "   1. First item\n 2. Second item\n     3. Third item",
+
+    # ❌ Out of order
+    "1. First item\n3. Second item\n4. Third item",
+
+    # ❌ Starts at 0
+    "0. Start\n1. Continue\n2. Continue",
+
+    # ❌ One item missing a number
+    "1. Good\n2. Also good\nOops this item has no number\n4. Skipped one",
+
+    # ❌ Non-numeric prefix
+    "1. First item\ntwo. Second item\n3. Third item",
+
+    # ✅ Long lines with list items
+    "1. This is a very long item that continues with a lot of description and explanation\n"
+    "2. Another long item that provides context and example usage\n"
+    "3. A final long item that wraps things up nicely",
+
+    # ❌ Empty line in between
+    "1. First item\n\n3. Third item",
+
+    # ✅ One item only
+    "1. Single item only",
+
+    # ❌ No content
+    ""
+]
+
+
+
+
+quote_block = """> This is a blockquote.  
+> It can span multiple lines and is often used for citing sources or highlighting ideas."""
 
 md = """
 
