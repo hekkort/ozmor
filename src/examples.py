@@ -1,5 +1,109 @@
 from textnode import TextNode, TextType
 
+example_ordered_md = """
+## 🧭 Artifacts & Relics
+
+1. `Skyforge Compass`
+   Allows the user to find their way even in voidlight.
+2. `Shard of Vael`  
+   Said to contain a frozen moment in time. *Handle with caution.*
+3. `Whispering Ring`  
+   - [x] Still functional  
+   - [ ] Cursed  
+   - [x] Bound to the House of Silence
+
+---"""
+
+example_code_md = """
+## 🧭 Artifacts & Relics
+
+1. `Skyforge Compass`
+   Allows the user to find their way even in voidlight.
+2. `Shard of Vael`  
+   Said to contain a frozen moment in time. *Handle with caution.*
+3. `Whispering Ring`  
+   - [x] Still functional  
+   - [ ] Cursed  
+   - [x] Bound to the House of Silence
+
+---
+
+## ⚙️ Code of the Wanderer
+
+```
+class Wanderer:
+    def __init__(self, name):
+        self.name = name
+        self.items = []
+    def find(self, item):
+        self.items.append(item)
+        return f"{self.name} found {item}!"
+```"""
+
+
+example_md = """# 🌍 The Curious World of Lorithal
+
+Welcome to the ancient world of **Lorithal**, a land of forgotten ruins, whispering forests, and floating cities. This document explores its secrets.
+
+---
+
+## 📖 Table of Contents
+
+1. [The History](#the-history)
+2. [Creatures of the Realm](#creatures-of-the-realm)
+3. [Artifacts & Relics](#artifacts--relics)
+4. [Appendix](#appendix)
+
+---
+
+## 🏰 The History
+
+> “Even the stars remember Lorithal, though we have long forgotten her name.” — *Archivist Elen Taar*
+
+Lorithal was once ruled by seven High Houses. The most powerful, **House Veyr**, built the Skyforge — a structure so vast it eclipsed the sun.
+
+### Subsection: The Fall
+
+In the year 8232 of the Third Cycle, the *Gloom Spires* erupted, casting ash across the continent. Survivors tell of a black-winged beast seen circling above the capital.
+
+---
+
+## 🐉 Creatures of the Realm
+
+- **Skirvel Hawks**: Messengers that can travel 300 leagues without rest.
+- **Gravetooth Bears**: Their roars shake stone.
+- **Glass Serpents**: Almost invisible, they nest in the spires.
+
+---
+
+## 🧭 Artifacts & Relics
+
+1. `Skyforge Compass`  
+   Allows the user to find their way even in voidlight.
+
+2. `Shard of Vael`  
+   Said to contain a frozen moment in time. *Handle with caution.*
+
+3. `Whispering Ring`  
+   - [x] Still functional  
+   - [ ] Cursed  
+   - [x] Bound to the House of Silence
+
+---
+
+## ⚙️ Code of the Wanderer
+
+```
+class Wanderer:
+    def __init__(self, name):
+        self.name = name
+        self.items = []
+
+    def find(self, item):
+        self.items.append(item)
+        return f"{self.name} found {item}!"
+```
+"""
 
 code_tests = [
     # ✅ Basic correct case
