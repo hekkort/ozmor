@@ -1,7 +1,9 @@
 from textnode import TextNode
+import os
 
 def main():
-    textnode = TextNode("this is some anchor text", "hello", "bye")
-    print(textnode)
+    copy()
 
+def copy():
+    print(os.listdir(".."))
 main()
