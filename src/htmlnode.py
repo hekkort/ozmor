@@ -1,3 +1,5 @@
+import traceback
+
 class HTMLNode():
     def __init__(self, tag=None, value=None, children=None, props=None):
         self.tag = tag
@@ -29,9 +31,14 @@ class LeafNode(HTMLNode):
         if self.props:
             return f"<{self.tag}{self.props_to_html()}>{self.value}</{self.tag}>"
         return f"<{self.tag}>{self.value}</{self.tag}>"
+    def __repr__(self):
+        return f"LeafNode({self.tag}, {self.value}, {self.children}, {self.props})"
     
 class ParentNode(HTMLNode):
     def __init__(self, tag, children, props=None):
+        if children is None:
+            print("Warning: ParentNode constructed with children=None", tag)
+            traceback.print_stack()
         super().__init__(tag, value=None, children=children, props=props)
     
     def to_html(self):
@@ -52,5 +59,7 @@ class ParentNode(HTMLNode):
             string += c.to_html()
         final += f"<{self.tag}>{string}</{self.tag}>"
         return final
+    def __repr__(self):
+        return f"ParentNode({self.tag}, {self.value}, {self.children}, {self.props})"
 
         

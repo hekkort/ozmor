@@ -1,47 +1,22 @@
 from textnode import TextNode, TextType
 
-example_ordered_md = """
-## 🧭 Artifacts & Relics
+small_md = """
+This is **bolded** paragraph
+text in a p
+tag here
 
-1. `Skyforge Compass`
-   Allows the user to find their way even in voidlight.
-2. `Shard of Vael`  
-   Said to contain a frozen moment in time. *Handle with caution.*
-3. `Whispering Ring`  
-   - [x] Still functional  
-   - [ ] Cursed  
-   - [x] Bound to the House of Silence
+This is another paragraph with _italic_ text and `code` here
 
----"""
+"""
 
-example_code_md = """
-## 🧭 Artifacts & Relics
-
-1. `Skyforge Compass`
-   Allows the user to find their way even in voidlight.
-2. `Shard of Vael`  
-   Said to contain a frozen moment in time. *Handle with caution.*
-3. `Whispering Ring`  
-   - [x] Still functional  
-   - [ ] Cursed  
-   - [x] Bound to the House of Silence
-
----
-
-## ⚙️ Code of the Wanderer
-
+another_md = """
 ```
-class Wanderer:
-    def __init__(self, name):
-        self.name = name
-        self.items = []
-    def find(self, item):
-        self.items.append(item)
-        return f"{self.name} found {item}!"
-```"""
+This is text that _should_ remain
+the **same** even with inline stuff
+```
+    """
 
-
-example_md = """# 🌍 The Curious World of Lorithal
+example_md = """# 🌍 The **Curious World of Lorithal**
 
 Welcome to the ancient world of **Lorithal**, a land of forgotten ruins, whispering forests, and floating cities. This document explores its secrets.
 
@@ -80,10 +55,8 @@ In the year 8232 of the Third Cycle, the *Gloom Spires* erupted, casting ash acr
 
 1. `Skyforge Compass`  
    Allows the user to find their way even in voidlight.
-
 2. `Shard of Vael`  
    Said to contain a frozen moment in time. *Handle with caution.*
-
 3. `Whispering Ring`  
    - [x] Still functional  
    - [ ] Cursed  
@@ -98,7 +71,6 @@ class Wanderer:
     def __init__(self, name):
         self.name = name
         self.items = []
-
     def find(self, item):
         self.items.append(item)
         return f"{self.name} found {item}!"
