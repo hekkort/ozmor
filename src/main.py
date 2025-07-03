@@ -3,9 +3,17 @@ import shutil
 from splitblocks import *
 
 def main():
-    src = "/home/hekkort/workspace/github.com/hekkort/ozmor/static"
-    dst = "/home/hekkort/workspace/github.com/hekkort/ozmor/public"
-    copy(src, dst)
+    root = "/home/hekkort/workspace/github.com/hekkort/ozmor"
+    from_path = root + "/content/index.md"
+    template_path = root + "/template.html"
+    dest_path = root + "/public"
+    src = root + "/static"
+
+
+    copy(src, dest_path)
+
+    generate_page(from_path, template_path, dest_path)
+
 
 
 def copy(src, dst):
@@ -24,7 +32,37 @@ def copy(src, dst):
             copy(os.path.join(src, item), os.path.join(dst, item))
 
 def extract_title(markdown):
-    pass
+    blocks = markdown_to_blocks(markdown)
+    for block in blocks:
+        if block_to_block_type(block) == BlockType.HEADING:
+            if re.match(r"^(# )", block):
+                block = block.lstrip("# ")
+                return block.strip()
+    raise Exception("no h1 header found")
+
+def generate_page(from_path, template_path, dest_path):
+    print(f"Generating page from {from_path} to {dest_path} using {template_path}")
+    md_contents = ""
+    html_template = ""
+    with open(from_path, "r") as file:
+        md_contents = file.read()
+
+    with open(template_path, "r") as file:
+        html_template = file.read()
+    
+    html_string = markdown_to_html_node(md_contents)
+    html_string = html_string.to_html()
+    title = extract_title(md_contents)
+    html_template = html_template.replace("{{ Title }}", title)
+    html_template = html_template.replace("{{ Content }}", html_string)
+
+    with open(dest_path + "/index.html", "w") as file:
+        file.write(html_template)
+
+    
+
+
+
     
 
 main()

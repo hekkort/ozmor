@@ -105,5 +105,3 @@ def make_ordered_list_children(text):
     for line in lines:
         final.append(ParentNode("li", text_to_children(re.sub(r"^\d+\. ", "", line).strip())))
     return final
-
-example2 = markdown_to_html_node(small_md)

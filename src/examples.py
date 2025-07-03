@@ -1,22 +1,6 @@
 from textnode import TextNode, TextType
 
-small_md = """
-This is **bolded** paragraph
-text in a p
-tag here
-
-This is another paragraph with _italic_ text and `code` here
-
-"""
-
-another_md = """
-```
-This is text that _should_ remain
-the **same** even with inline stuff
-```
-    """
-
-example_md = """# 🌍 The **Curious World of Lorithal**
+lorithal = """# 🌍 The **Curious World of Lorithal**
 
 Welcome to the ancient world of **Lorithal**, a land of forgotten ruins, whispering forests, and floating cities. This document explores its secrets.
 
