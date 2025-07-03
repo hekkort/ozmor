@@ -1,6 +1,7 @@
 import os
 import shutil
 from splitblocks import *
+from pathlib import Path
 
 def main():
     root = "/home/hekkort/workspace/github.com/hekkort/ozmor"
@@ -8,11 +9,12 @@ def main():
     template_path = root + "/template.html"
     dest_path = root + "/public"
     src = root + "/static"
+    content = root + "/content"
 
 
     copy(src, dest_path)
 
-    generate_page(from_path, template_path, dest_path)
+    generate_pages_recursive(content, template_path, dest_path)
 
 
 
@@ -60,6 +62,19 @@ def generate_page(from_path, template_path, dest_path):
         file.write(html_template)
 
     
+def generate_pages_recursive(dir_path_content, template_path, dest_dir_path):
+    items = os.listdir(dir_path_content)
+
+    for item in items:
+        if item.endswith(".md"):
+            print(f"src path: {os.path.join(dir_path_content, item)}")
+            generate_page(os.path.join(dir_path_content, item), template_path, dest_dir_path)
+        elif os.path.isdir(os.path.join(dir_path_content, item)):
+            os.mkdir(os.path.join(dest_dir_path, item))
+            print(f"dst path: {os.path.join(dest_dir_path, item)}")
+            generate_pages_recursive(os.path.join(dir_path_content, item), template_path, os.path.join(dest_dir_path, item))
+            
+            
 
 
 
