@@ -6,7 +6,7 @@ import sys
 def main():
     root = "/home/hekkort/workspace/github.com/hekkort/ozmor"
     template_path = root + "/template.html"
-    dest_path = root + "/public"
+    dest_path = root + "/docs"
     src = root + "/static"
     content = root + "/content"
 
