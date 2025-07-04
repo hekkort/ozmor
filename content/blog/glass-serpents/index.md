@@ -8,8 +8,6 @@ Almost invisible against stone and sky, Glass Serpents are thin, translucent rep
 
 > "I saw my reflection blink — and then it was gone." — *Last entry of Scribe Halen Mor*
 
----
-
 ## Known Traits
 
 - Nearly undetectable unless disturbed.
@@ -17,8 +15,6 @@ Almost invisible against stone and sky, Glass Serpents are thin, translucent rep
 - Said to guard ancient magic etched into the spires.
 - Reflective skin refracts light and heat signatures.
 - Tongue flicks emit a faint chime audible only to those marked by magic.
-
----
 
 ## Additional Lore
 
@@ -30,8 +26,6 @@ In the ruins of **Kyreth's Rise**, a spire-city swallowed by stormclouds, explor
 
 Some believe they are **time-locked guardians**, programmed to awaken when certain star patterns align. One theory suggests their coils align with leyline vortices, amplifying arcane currents.
 
----
-
 ## Timeline of Sightings
 
 - **-110 A.S.** — First recorded vanishing attributed to serpent bite.
@@ -39,8 +33,6 @@ Some believe they are **time-locked guardians**, programmed to awaken when certa
 - **12 A.S.** — An entire skyship disappears near Cradle Spire after dusk.
 - **157 A.S.** — First successful repulsion ritual reported by Mage-Librarian Ven Ator.
 - **344 A.S.** — A living Glass Serpent captured briefly within a mirrored cage; vanished upon direct eye contact.
-
----
 
 ## Bestiary Entry
 
@@ -53,8 +45,6 @@ Some believe they are **time-locked guardians**, programmed to awaken when certa
 > *Threat Level*: High  
 
 > *Interaction Protocol*: Avoid reflections, burn moon-lichen, do not speak aloud near mirrored surfaces at altitude.
-
----
 
 ## GlassSerpent Class (Python)
 

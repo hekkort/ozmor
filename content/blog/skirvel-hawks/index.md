@@ -8,8 +8,6 @@ Skirvel Hawks are revered for their unerring sense of direction. These sleek, bl
 
 > "If a Skirvel takes flight with your words, know they will reach even the moonlight watchtowers." — *Skypost Lorebook*
 
----
-
 ## Known Traits
 
 - Can navigate even in magical fog or voidlight.
@@ -17,8 +15,6 @@ Skirvel Hawks are revered for their unerring sense of direction. These sleek, bl
 - Used in ancient High House diplomacy.
 - Sensitive to sky-metal and leyline interference.
 - Wings shimmer faintly under starlight due to trace celestial alloys.
-
----
 
 ## Additional Lore
 
@@ -30,8 +26,6 @@ During the **Siege of Aelarion**, a single hawk named **Vareth's Wing** flew thr
 
 In modern times, rogue hawks with broken bands are believed to carry lost words: royal decrees, unsent warnings, even final confessions. These birds never land, circling the ruins of sky-cities long since fallen, seeking a true heir to the broken banners.
 
----
-
 ## Timeline of Flight and Folklore
 
 - **-701 A.S.** — First mention of “sky-silvered hawks” in House Veyr breeding ledgers.
@@ -39,8 +33,6 @@ In modern times, rogue hawks with broken bands are believed to carry lost words:
 - **1 A.S.** — Vareth’s Wing delivers final plea to the Aether Wardens.
 - **98 A.S.** — Scholar Eylin claims Skirvels avoid falsehood; sparks debate in the High Forums.
 - **312 A.S.** — A rogue hawk lands atop the Skygrave Tower, igniting prophecy rumors.
-
----
 
 ## Bestiary Entry
 
@@ -53,8 +45,6 @@ In modern times, rogue hawks with broken bands are believed to carry lost words:
 > *Threat Level*: Minimal (unless bonded and protective)  
 
 > *Interaction Protocol*: Approach calmly; offer open hands and sky-metal token. Never speak lies in its presence.
-
----
 
 ## SkirvelHawk Class (Python)
 

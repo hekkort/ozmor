@@ -8,8 +8,6 @@ Towering over men, the Gravetooth Bears are named for the jagged crystal formati
 
 > "When the valleys grumble, tread lightly — the Gravetooth watches." — *Ranger's Field Journal*
 
----
-
 ## Known Traits
 
 - Often mistaken for small landslides at a distance.
@@ -17,8 +15,6 @@ Towering over men, the Gravetooth Bears are named for the jagged crystal formati
 - Hibernate within crystal dens during frost moons.
 - Roars can trigger rockfalls and minor seismic activity.
 - Crystals on their jaws resonate with leyline vibrations.
-
----
 
 ## Additional Lore
 
@@ -30,8 +26,6 @@ In rare cases, old Gravetooth dens have been found containing **petrified cubs e
 
 Elders of the **Stonewoven Order** suggest Gravetooth Bears are not animals at all, but avatars of the mountains themselves — only animated when balance is threatened. Their appearance often coincides with landslides that uncover forgotten ruins or relics best left buried.
 
----
-
 ## Timeline of Notable Encounters
 
 - **-318 A.S.** — The valley of Tharn collapses; tribe elder speaks of a “crystal roar” before his death.
@@ -39,8 +33,6 @@ Elders of the **Stonewoven Order** suggest Gravetooth Bears are not animals at a
 - **22 A.S.** — Ranger Ayla survives a Gravetooth encounter by mimicking bear song with a crystal flute.
 - **267 A.S.** — Seismologists detect synchronized roars across three valleys during leyline surge.
 - **489 A.S.** — Monastery of Qor expedition ends in madness; only the scribe's hand remained, clutching quartz.
-
----
 
 ## Bestiary Entry
 
@@ -53,8 +45,6 @@ Elders of the **Stonewoven Order** suggest Gravetooth Bears are not animals at a
 > *Threat Level*: Variable (low when hibernating, extreme during territory defense)  
 
 > *Interaction Protocol*: Do not break ground crystals; use low-frequency flutes to signal peace.
-
----
 
 ## GravetoothBear Class (Python)
 
