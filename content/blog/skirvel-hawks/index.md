@@ -44,10 +44,14 @@ In modern times, rogue hawks with broken bands are believed to carry lost words:
 
 ## Bestiary Entry
 
-> *Class*: Arcane Avian  
+> *Class*: Arcane Avian
+
 > *Habitat*: Floating city aeries, high cliffs, ley-currents  
+
 > *Temperament*: Loyal, alert, easily startled by distortion magic  
+
 > *Threat Level*: Minimal (unless bonded and protective)  
+
 > *Interaction Protocol*: Approach calmly; offer open hands and sky-metal token. Never speak lies in its presence.
 
 ---

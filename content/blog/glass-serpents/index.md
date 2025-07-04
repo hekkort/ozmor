@@ -45,9 +45,13 @@ Some believe they are **time-locked guardians**, programmed to awaken when certa
 ## Bestiary Entry
 
 > *Class*: Arcane Beast  
+
 > *Habitat*: Floating spires, especially near thermal vents and leyline nexuses  
+
 > *Temperament*: Reactive, not aggressive unless provoked  
+
 > *Threat Level*: High  
+
 > *Interaction Protocol*: Avoid reflections, burn moon-lichen, do not speak aloud near mirrored surfaces at altitude.
 
 ---

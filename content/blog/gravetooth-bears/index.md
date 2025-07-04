@@ -44,10 +44,14 @@ Elders of the **Stonewoven Order** suggest Gravetooth Bears are not animals at a
 
 ## Bestiary Entry
 
-> *Class*: Elemental Beast  
+> *Class*: Elemental Beast 
+
 > *Habitat*: Mountain valleys, crystal caves, faultline crossings  
+
 > *Temperament*: Defensive, dormant unless provoked or threatened  
+
 > *Threat Level*: Variable (low when hibernating, extreme during territory defense)  
+
 > *Interaction Protocol*: Do not break ground crystals; use low-frequency flutes to signal peace.
 
 ---
