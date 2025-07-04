@@ -90,7 +90,9 @@ class GravetoothBear:
             return f"{self.name} senses the offering and returns to slumber."
         return f"{self.name} rejects the offering. The ground begins to quake..."
 ```
+
 # Example usage
+
 ```
 bear = GravetoothBear(name="Thrumjaw", crystal_age=230)
 print(bear.awaken(disturbance_level=9))

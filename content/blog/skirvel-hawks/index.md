@@ -93,7 +93,9 @@ class SkirvelHawk:
         self.exhaustion = 0
         return f"{self.name} rests and preens atop a wind-touched perch."
 ```
+
 # Example usage
+
 ```
 hawk = SkirvelHawk(name="Vareth's Wing")
 print(hawk.bond("Aelarion Courier"))

@@ -84,7 +84,9 @@ class GlassSerpent:
         """Returns eerie message if the serpent is near reflective surfaces."""
         return "You see your reflection blink… but your eyes did not move."
 ```
+
 # Example usage
+
 ```
 serpent = GlassSerpent(name="Echo")
 print(serpent.coil_behavior())
