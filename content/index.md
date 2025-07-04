@@ -1,5 +1,7 @@
 # 🌍 The Curious World of Lorithal
 
+![Lorithal](/images/lorithal.png)
+
 Welcome to the ancient world of **Lorithal**, a land of forgotten ruins, whispering forests, and floating cities. This document explores its secrets.
 
 ---
