@@ -2,15 +2,6 @@
 
 Welcome to the ancient world of **Lorithal**, a land of forgotten ruins, whispering forests, and floating cities. This document explores its secrets.
 
-
-## 📖 Table of Contents
-
-1. [The History](#the-history)
-2. [Creatures of the Realm](#creatures-of-the-realm)
-3. [Artifacts & Relics](#artifacts--relics)
-4. [Appendix](#appendix)
-
-
 ## 🏰 The History
 
 > “Even the stars remember Lorithal, though we have long forgotten her name.” — *Archivist Elen Taar*
