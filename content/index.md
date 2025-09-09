@@ -20,19 +20,19 @@ Thank you again for your message!
 My colleague has checked, and it appears you don’t yet have an Alpro SAP account.
 
 You can request one using the following link:
-https://danone.service-now.com/danone_it?id=sc_cat_item_it&sys_id=3d9a53bd877e45901c01c9580cbb35cd
+[Alpro SAP account request](https://danone.service-now.com/danone_it?id=sc_cat_item_it&sys_id=3d9a53bd877e45901c01c9580cbb35cd)
 
 In the meantime, I’ll forward your ticket to our IT experts so they can check whether you already have a Themis SAP account.
 
 Kind regards,
 Harry
-- https://danone.service-now.com/danone_it?id=sc_cat_item_it&sys_id=6ebb95abdbeda4105c7e1ea605961988 request sap accesss
+- [Request SAP Access](https://danone.service-now.com/danone_it?id=sc_cat_item_it&sys_id=6ebb95abdbeda4105c7e1ea605961988)
 - SAP I want to request new/change in SAP - BENL
 Thanks for your message!
 
 Would you mind filling out the form via the link below? That will allow us to initiate the access request process:
 
-https://danone.service-now.com/danone_it?id=sc_cat_item_it&sys_id=6ebb95abdbeda4105c7e1ea605961988
+[Request SAP Access](https://danone.service-now.com/danone_it?id=sc_cat_item_it&sys_id=6ebb95abdbeda4105c7e1ea605961988)
 
 Please let me know if everything works as expected.
 
@@ -74,7 +74,7 @@ Harry
 
 ## Password reset
 - eerst deze link gebruiken als mensen hun wachtwoord zijn vergeten
-https://danone.service-now.com/danone_it?id=kb_article_view&sys_kb_id=457d50c997d95e50e10cf4b6f053af70&table=
+[Password reset](https://danone.service-now.com/danone_it?id=kb_article_view&sys_kb_id=457d50c997d95e50e10cf4b6f053af70&table=)
 
 ## Global Protect issues:
 - common problemen global protect KB
@@ -135,11 +135,11 @@ Kind regards,
 Harry
 
 ## Create/modify/delete room:
-- https://danone.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Dfce9c2f2dbdbdcd05141fd871d9619f8%26sysparm_link_parent%3D48942a60dbc804903c16d8e74b96193a%26sysparm_catalog%3De0d08b13c3330100c8b837659bba8fb4%26sysparm_catalog_view%3Dcatalog_default%26sysparm_view%3Dtext_search request form voor rooms.
+- [Create/modify/delete room](https://danone.service-now.com/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Dfce9c2f2dbdbdcd05141fd871d9619f8%26sysparm_link_parent%3D48942a60dbc804903c16d8e74b96193a%26sysparm_catalog%3De0d08b13c3330100c8b837659bba8fb4%26sysparm_catalog_view%3Dcatalog_default%26sysparm_view%3Dtext_search) request form voor rooms.
 
 ## AD
 - In AD kun je computers enablen, mocht je een ticket krijgen hierover.
-- https://danone.service-now.com/danone_it?id=kb_article_view&sys_kb_id=edea21c587879ed44a9ccbb80cbb35ea&table=
+- [Ticket about enabling computers in AD](https://danone.service-now.com/danone_it?id=kb_article_view&sys_kb_id=edea21c587879ed44a9ccbb80cbb35ea&table=)
 - 
 
 ## Shared Accounts
@@ -151,7 +151,7 @@ Thank you for your message!
 
 Could you please fill out the template via the link below? This will allow us to initiate the process to grant you access:
 
-https://danone.service-now.com/danone_it?id=sc_cat_item_it&sys_id=8e1e3bbc87925154025332a40cbb35ac
+[Shared folder access request](https://danone.service-now.com/danone_it?id=sc_cat_item_it&sys_id=8e1e3bbc87925154025332a40cbb35ac)
 
 Once completed, please let us know if everything worked as expected and whether we can proceed with closing this ticket.
 
@@ -169,7 +169,7 @@ Thank you for your message.
 
 Unfortunately, you'll receive the same error if you attempt to reset your password within the same 24-hour period. However, I’ve gone ahead and reset it again for you, so you should now be able to set a new password using the following link:
 
-https://passwordreset.microsoftonline.com/
+[Password reset](https://passwordreset.microsoftonline.com/)
 
 Please let us know if this resolves the issue.
 
@@ -181,14 +181,14 @@ Harry
 
 ## Sharepoint access
 
-- https://danone.service-now.com/incident.do?sys_id=ecfc647c2bab22187dd2f0845e91bf9c&sysparm_domain=null&sysparm_domain_scope=null&sysparm_record_list=assignment_group%3d3676178edbf1a8101141a1ea4b961999%5eassigned_toISEMPTY%5estate%3d1%5eORstate%3d101%5eORstate%3d2%5eORstate%3d17%5eactive%3dtrue%5enumberDOES+NOT+CONTAINenhc%5eORDERBYsys_updated_on&sysparm_record_row=5&sysparm_record_rows=8&sysparm_view=default+view&sysparm_view_forced=true
+- [SharePoint Access](https://danone.service-now.com/incident.do?sys_id=ecfc647c2bab22187dd2f0845e91bf9c&sysparm_domain=null&sysparm_domain_scope=null&sysparm_record_list=assignment_group%3d3676178edbf1a8101141a1ea4b961999%5eassigned_toISEMPTY%5estate%3d1%5eORstate%3d101%5eORstate%3d2%5eORstate%3d17%5eactive%3dtrue%5enumberDOES+NOT+CONTAINenhc%5eORDERBYsys_updated_on&sysparm_record_row=5&sysparm_record_rows=8&sysparm_view=default+view&sysparm_view_forced=true)
 
 ## MFA reset
 - tekst als mfa gereset wordt
 Hi USER, 
 
 The authenticator has been reset. 
-Please visit this link: https://aka.ms/mfasetup to set it up again. The easiest way to access this URL is on your laptop. 
+Please visit this link: [MFA setup](https://aka.ms/mfasetup) to set it up again. The easiest way to access this URL is on your laptop. 
 With the Authenticator app, you can go to the top right corner, click the + > Work / School > Scan QR Code. 
 Could you let us know if you were able to set it up again? 
  
@@ -268,7 +268,7 @@ Kind regards,
 Harry
 
 ## ticket inschieten
-- https://danone.service-now.com/now/nav/ui/classic/params/target/incident
+- [Make a ticket](https://danone.service-now.com/now/nav/ui/classic/params/target/incident)
 
 ## File paths
 - file path too long
@@ -377,7 +377,7 @@ Thank you again for your message!
 Could you please check the current sync status of your OneDrive? You can do this by clicking the blue cloud icon in the bottom right corner of your screen, then selecting the cogwheel (Settings) in the top right corner of the menu.
 
 Additionally, could you confirm whether the same sync issue occurs when accessing OneDrive via your browser? You can check by logging in at the following link:
-https://onedrive.live.com/
+[OneDrive online](https://onedrive.live.com/)
 
 Please let us know what you find.
 
@@ -438,7 +438,7 @@ Harry
 Thank you for your message!
 
 You can apply for a new license using the following link:
-https://danone.sharepoint.com/sites/GTI-CopilotM365PilotGroup/SitePages/Copilot%20Hub.aspx
+[Copilot SharePoint license request](https://danone.sharepoint.com/sites/GTI-CopilotM365PilotGroup/SitePages/Copilot%20Hub.aspx)
 Please note that the waiting list is currently quite long and depends on the activity of existing license holders. Licenses may become available when users are inactive.
 
 Let us know if you need any further assistance.
