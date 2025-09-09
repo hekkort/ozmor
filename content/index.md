@@ -201,7 +201,7 @@ Thank you for your message!
 
 Could you please follow the instructions in the link below to free up disk space? This may help recover a significant amount of storage and performance:
 
-[code]<a title="Windows: What to do when your disk is at capacity. (IT &amp; Data Benelux)" href='kb_view.do?sys_kb_id=52e64590c3f316907ca77453e40131a5' >KB0034570 : Windows: What to do when your disk is at capacity. (IT &amp; Data Benelux)</a>[/code]
+[Windows: What to do when your disk is at capacity. (IT &amp; Data Benelux)](kb_view.do?sys_kb_id=52e64590c3f316907ca77453e40131a5)
 
 Please let us know if you need any further assistance!
 
@@ -213,7 +213,7 @@ Thank you for your message!
 
 Could you please follow the instructions in the link below to free up disk space? This may help recover a significant amount of storage and performance:
 
-[code]<a title="Windows: What to do when your disk is at capacity. (IT &amp; Data Benelux)" href='kb_view.do?sys_kb_id=52e64590c3f316907ca77453e40131a5' >KB0034570 : Windows: What to do when your disk is at capacity. (IT &amp; Data Benelux)</a>[/code]
+[Windows: What to do when your disk is at capacity. (IT &amp; Data Benelux)](kb_view.do?sys_kb_id=52e64590c3f316907ca77453e40131a5)
 
 Additionally, please make sure that you are connected to the VPN by checking the status in the globe in the bottom right corner.
 Lastly, would you be so kind as to check if your OneDrive is synchronized? You can do this by clicking the cloud icon in the bottom right corner and clicking the cogwheel.
@@ -227,11 +227,11 @@ Thank you for your message!
 
 Would you be so kind as to follow the instructions in the link below? That way we'll be able to better understand your issue:
 
-[code]<a title="Windows: Using Task Manager to Close Unresponsive Applications" href='kb_view.do?sys_kb_id=64e628164714ea5c8f404c99316d436f' >KB0074054 : Windows: Using Task Manager to Close Unresponsive Applications</a>[/code]
+[Windows: Using Task Manager to Close Unresponsive Applications](kb_view.do?sys_kb_id=64e628164714ea5c8f404c99316d436f)
+
 
 Additionally, could you please follow the instructions in the link below to free up disk space? This may help recover a significant amount of storage and performance:
-
-[code]<a title="Windows: What to do when your disk is at capacity. (IT &amp; Data Benelux)" href='kb_view.do?sys_kb_id=52e64590c3f316907ca77453e40131a5' >KB0034570 : Windows: What to do when your disk is at capacity. (IT &amp; Data Benelux)</a>[/code]
+[Windows: What to do when your disk is at capacity. (IT &amp; Data Benelux)](kb_view.do?sys_kb_id=52e64590c3f316907ca77453e40131a5)
 
 Also, please make sure that you are connected to the VPN by checking the status in the globe in the bottom right corner.
 Lastly, would you be so kind as to check if your OneDrive is synchronized? You can do this by clicking the cloud icon in the bottom right corner and clicking the cogwheel.
@@ -259,8 +259,7 @@ Harry
 Thank you for your patience.
 
 Could you please follow the instructions in the link below to add the drive to your File Explorer?
-
-[code]<a title="Network: How to map a drive (IT &amp; Data Benelux)" href='kb_view.do?sys_kb_id=2c73042d97c91a94e10cf4b6f053af21' >KB0040180 : Network: How to map a drive (IT &amp; Data Benelux)</a>[/code]
+[Network: How to map a drive (IT &amp; Data Benelux)](kb_view.do?sys_kb_id=2c73042d97c91a94e10cf4b6f053af21)
 
 Please note that it may take up to an hour for the access changes to fully propagate through the system.
 
@@ -344,8 +343,7 @@ I’ve added NAME to the mailbox.
 Please allow at least an hour for the change to propagate through the system. After that, could you kindly check if access is working as expected?
 
 I’d appreciate it if you could follow the steps outlined in the instructions below:
-
-[code]<a title="Outlook (NEW version): How to add or remove a shared mailbox/calendar  (IT &amp; Data Benelux)" href='kb_view.do?sys_kb_id=a81c3025c3ed5e187ca77453e4013130' >KB0062701 : Outlook (NEW version): How to add or remove a shared mailbox/calendar  (IT &amp; Data Benelux)</a>[/code]
+[Outlook (NEW version): How to add or remove a shared mailbox/calendar  (IT &amp; Data Benelux)](kb_view.do?sys_kb_id=a81c3025c3ed5e187ca77453e4013130)
 
 Let me know if everything works or if you need any further assistance.
 
